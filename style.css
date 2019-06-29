@@ -1,1 +1,34 @@
+#gem{
+    width: 100px;
+    height: 100px;
+}
 
+#icon{
+    width: 10%;
+    height: 10%;
+}
+.container{
+    background: lightblue;
+}
+
+body{
+    background: darkcyan;
+    text-align: center;
+}
+
+h1{
+    font: 50px red;
+    border-bottom: solid 5px whitesmoke;
+}
+
+#text{
+    border-bottom: solid 5px whitesmoke;
+}
+
+#score{
+    background: lightcoral;
+}
+
+#score1{
+    background:lightslategray;
+}
