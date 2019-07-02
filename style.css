@@ -15,10 +15,14 @@ body{
 h1{
     font: 50px red;
     border-bottom: solid 5px whitesmoke;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 #text{
     border-bottom: solid 5px whitesmoke;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 #goal{
     background: lightgreen;
@@ -35,6 +39,12 @@ h1{
     width: 150px;
     height: 150px;
     float: left;
-margin-left: 8%;  
+    margin-left: 8%;  
 
+}
+
+#info{
+    border: solid black 3px;
+    margin-left: 25%;
+    margin-right: 25%;
 }

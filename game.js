@@ -29,6 +29,7 @@ $(document).ready(function () {
             var gemRange= Math.floor(Math.random()*12+1);
             numbers.push(gemRange);
         }
+        console.log(numbers)
     }
 
     // run gemNum on initial refresh
