@@ -5,41 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>CrystalCatcher</title>
 </head>
 
 <body>
-    <h1><img id=icon src="images/icon.jpg">Crystal Catcher!</h1>
-    <div>You will be given a random start number</div>
-    <div>Each crystal will add a different value when clicked</div>
+ 
+    <h1><img id="icon" src="images/icon.jpg">Crystal Catcher!</h1>
+    <div>You will be given a random goal number</div>
+    <div>Each crystal will add a different value to your total when clicked</div>
     <div>Win by matching your total to the computer's guess</div>
     <div id="text">If you go over the guessed number you lose!</div>
+
     <br>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4">Points:</div>
-            <div class="col-md-4">Wins:</div>
-            <div class="col-md-4">Losses:</div>
+            <div id="goal" class="col-md-3">Goal:<div id="randomnumber"></div></div>
+            <div id="score" class="col-md-3">Total:<div id="total"></div></div>
+            <div id="wins" class="col-md-3">Wins:<div id="wintotal"></div></div>
+            <div id="losses" class="col-md-3">Losses:<div id="losstotal"></div></div>
 
         </div>
     </div>
-<p id="result"></p>
+    <p id="result"></p>
 
     <div class="crystals" class="container">
-        <div class="crystals" class="row">
-            <div class="crystal" class="col-lg-3" data-random="randomnumber"><img id=gem src="images/mario.jpg"></div>
-            <div class="crystal" class="col-lg-3" data-random="randomnumber"><img id=gem src="images/sonic.jpg"></div>
-            <div class="crystal" class="col-lg-3" data-random="randomnumber"><img id=gem src="images/zelda.jpg"></div>
-            <div class="crystal" class="col-lg-3" data-random="randomnumber"><img id=gem src="images/animal.jpg"></div>
+        <div class="row">
+            <div class="col-lg-3"><input type="image" id="mario" id="gem" src="images/mario.jpg"></div>
+            <div class="col-lg-3"><input type="image" id="sonic" id="gem" src="images/sonic.jpg"></div>
+            <div class="col-lg-3"><input type="image" id="zelda" id="gem" src="images/zelda.jpg"></div>
+            <div class="col-lg-3"><input type="image" id="animal" id="gem" src="images/animal.jpg"></div>
         </div>
     </div>
-        <br>
-        <div id=score>Your total store is:</div>
-        <div id=score1>Gem amount?</div>
+    <br>
 
 
 
@@ -51,6 +50,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="game.js"></script>
+
+
+
+
 </body>
 
 </html>
