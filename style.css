@@ -19,11 +19,7 @@ h1{
     margin-right: 25%;
 }
 
-#text{
-    border-bottom: solid 5px whitesmoke;
-    margin-left: 25%;
-    margin-right: 25%;
-}
+
 #goal{
     background: lightgreen;
 }
@@ -35,11 +31,22 @@ h1{
     background:lightslategray;
 }
 
-#mario, #animal, #zelda, #sonic{
+#mario{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 18%;  
+
+} 
+
+
+
+#animal, #zelda, #sonic{
     width: 150px;
     height: 150px;
     float: left;
     margin-left: 8%;  
+
 
 }
 
@@ -47,4 +54,16 @@ h1{
     border: solid black 3px;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.crystals{
+
+    display: inline;
+}
+
+.learn{
+    border: gold solid 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: whitesmoke;
 }
