@@ -19,9 +19,9 @@ Create another fun and interactive game for web browsers. This site utilizes jQu
 
 **Built with:**
 * [jQuery](https://jquery.com/)
-* [HTML]
-* [CSS]
-* [JavaScript]
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/)
+* [JavaScript](https://www.javascript.com/)
 
 
 ![MemoryGame](crystal.JPG)
