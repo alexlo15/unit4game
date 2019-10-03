@@ -1,12 +1,3 @@
-# unit4game
-hw #4 jquery game
- crystal collector hw#4 for my coding bootcamp!
-https://alexlo15.github.io/unit4game/
-
-
-
-
-
 # [Crystal Catcher](https://alexlo15.github.io/unit4game/)
 RU-SOM-FSF-FT-06-2019-U-C | Homework #4
 
